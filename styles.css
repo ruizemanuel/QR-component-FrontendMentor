@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(212, 45%, 89%)
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
